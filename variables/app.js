@@ -32,3 +32,15 @@ let oneWay;
 //camelCase vs snake_case
 let camelCase;
 let snake_case;
+
+// var let const
+
+//using var
+var varValue = "var old one";
+
+//using let
+let letValue = "es6 value";
+
+//const
+//can't reassign and u must assign value when declare the varibale
+const constValue = "const value";
