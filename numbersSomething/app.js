@@ -18,3 +18,24 @@ let mult = number1 * number2;
 console.log(mult);
 let div = number1 / number2;
 console.log(div);
+
+// += -= /= *= ++ -- %
+
+let testNumber = 50;
+testNumber += 5;
+console.log(testNumber);
+testNumber -= 5;
+console.log(testNumber);
+testNumber *= 5;
+console.log(testNumber);
+testNumber /= 5;
+console.log(testNumber);
+testNumber++;
+console.log(testNumber);
+testNumber--;
+console.log(testNumber);
+
+const slices = 10;
+const children = 3;
+const leftover = slices % children;
+console.log(leftover);
